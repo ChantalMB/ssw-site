@@ -30,7 +30,7 @@ class App extends Component {
             <Route exact path='/visualization' render={()=>{ return <Visualization witches={this.state.witches} />}} />
             <Route exact path='/sources' component={Sources} />
           </Switch>
-        </div> 
+        </div>
       </Router>
     );
   }
