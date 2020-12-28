@@ -2,8 +2,8 @@ import React, { Component } from "react";
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 
 import About from "./components/About";
-import Visualization from "./components/Visualization";
 import Sources from "./components/Sources";
+import WitchMap from "./components/WitchMap";
 
 //import {witches} from "./components/utils/witches"
 
@@ -27,8 +27,8 @@ class App extends Component {
           <Switch>
             <Route exact path='/' component={Home} />
             <Route exact path='/about' component={About} />
-            <Route exact path='/visualization' render={()=>{ return <Visualization witches={this.state.witches} />}} />
             <Route exact path='/sources' component={Sources} />
+            <Route exact path='/visualization/map' render={()=>{ return <WitchMap witches={this.state.witches} />}} />
           </Switch>
         </div>
       </Router>

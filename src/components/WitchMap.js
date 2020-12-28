@@ -5,49 +5,46 @@ import {
     Popup,
     Marker
 } from "react-leaflet";
-import Leaflet, { icon } from "leaflet";
+import Leaflet from "leaflet";
 import "leaflet/dist/leaflet.css";
 
 import WitchTooltip from "./WitchTooltip";
 import {defaults} from "./utils/consts";
+import {iconSet} from "./utils/iconSet";
 
 const tileUrl = 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
 const attribution = '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors';
 
-const icons = {
-    "Male": new Leaflet.icon({
-        iconUrl: 'icons/Male.png',
-        iconSize: [42, 57.3],
-        iconAnchor: [12, 41],
-        popupAnchor: [1, -34]
-    }),
-    "Female": new Leaflet.icon({
-        iconUrl: 'icons/Female.png',
-        iconSize: [42, 57.3],
-        iconAnchor: [12, 41],
-        popupAnchor: [1, -34]
-    }),
-    "Unknown": new Leaflet.icon({
-        iconUrl: 'icons/Unknown.png',
-        iconSize: [42, 57.3],
-        iconAnchor: [12, 41],
-        popupAnchor: [1, -34]
-    })
-}
-
 export default class WitchMap extends Component {
   state = defaults;
+
+  handleChange = (e)=> {
+      const {name, value} = e.target;
+
+      this.setState({[name]: value});
+  };
+
   render() {
     return this.props.witches ? (
         <div>
             <div>
-                <input type="radio" value="Color" name="color" checked={true}/> Color
-                <input type="radio" value="No_color" name="color"/> No Color
+                <input type="radio" 
+                    value="Sex" 
+                    name="dataTarget" 
+                    checked={this.state.targetData === "Sex"} 
+                    onChange={(e)=>{this.setState({targetData: e.target.value})}} 
+                /> Sex
+                <input type="radio" 
+                    value="Age" 
+                    name="dataTarget" 
+                    checked={this.state.targetData === "Age"} 
+                    onChange={(e)=>{this.setState({targetData: e.target.value})}} 
+                /> Age
             </div>
         <Map id="map"
             center={[this.state.lat, this.state.lng]}
             zoom={this.state.zoom}
-            style={{ width: "100%", position:"absolute", top: 90, bottom: 0, zIndex: 500}}
+            style={{ width: "100%", position:"absolute", top: 50, bottom: 0, zIndex: 500}}
             updateWhenZooming={false}
             updateWhenIdle={true}
             preferCanvas={true}
@@ -60,7 +57,7 @@ export default class WitchMap extends Component {
 
             {this.props.witches.map((witch, idx)=>
                 <Marker
-                    icon={this.state.color ? (icons[witch.properties.Sex]) : (icons["Unknown"])}
+                    icon={iconSet[this.state.targetData](witch.properties[this.state.targetData])}
                     key={`witch-${witch.id}`}
                     color='black'
                     weight={2}
@@ -71,7 +68,7 @@ export default class WitchMap extends Component {
                 > </Marker>
             )}
             {this.state.activeWitch && <Popup
-                position={this.state.activeWitch.geometry.coordinates}
+                position={[this.state.activeWitch.geometry.coordinates[1], this.state.activeWitch.geometry.coordinates[0]]}
                 onClose={()=> {
                     this.setState({activeWitch: null})
                 }}>

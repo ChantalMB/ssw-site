@@ -3,5 +3,6 @@ export const defaults = {
     lng: -4.244758,
     zoom: 8,
     minzoom: 1,
-    color: true
+    targetData: "Sex",
+    showUnknown: true
 };
