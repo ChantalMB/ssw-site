@@ -15,7 +15,7 @@ import FolkNotes from "./components/Folknotes";
 import FairyEle from "./components/FairyElements";
 import Home from "./components/Home";
 
-import './css/home.css';
+import './css/styles.css';
 
 
 //import {witches} from "./components/utils/witches"

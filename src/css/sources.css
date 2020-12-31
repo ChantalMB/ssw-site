@@ -2,16 +2,6 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
-.panel {
-    background-color: #cbcbcb;
-    position: relative;
-    max-height: fit-content;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 30px 30px 30px 30px;
-    margin: 0px 63px 0px 63px;
-}
 
 .content h1 {
     font-family: 'Roboto Slab', sans-serif;

@@ -1,6 +1,9 @@
 .post-field {
     width: 100%;
-    height: 93vh;
+    height: 93vh !important;
+    padding-top: 50px;
+    animation: fadeIn ease 2.3s;
+    -webkit-animation: fadeIn ease 2.3s;
 }
 
 iframe {
@@ -9,6 +12,7 @@ iframe {
     
 }
 
+
 .panelbod{
     background-color: white;
     position: relative;
@@ -16,6 +20,6 @@ iframe {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 15px 30px 15px 30px;
+    padding: 0px 30px 15px 30px;
     margin: 0px 63px 0px 63px;
 }

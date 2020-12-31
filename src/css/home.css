@@ -15,8 +15,8 @@ body {
     background-repeat: no-repeat;
     background-size: 100%;
     background-position-y: 43%;
-    animation: fadeIn ease 5s;
-    -webkit-animation: fadeIn ease 5s;
+    animation: fadeIn ease 2.3s;
+    -webkit-animation: fadeIn ease 2.3s;
 }
 .pgHeader::before {
     content: "";
@@ -49,8 +49,8 @@ span {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 0px 45px 25px 45px;
-    margin: 65px 63px 65px 63px;
+    padding: 0px 45px 25px 45px !important;
+    margin: 65px 63px 65px 63px !important;
 }
 
 .content h1 {
