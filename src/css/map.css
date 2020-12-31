@@ -1,0 +1,38 @@
+.rad {
+  background-color: #cbcbcb;
+  height: 715px;
+}
+
+.filters {
+  padding-top: 647px;
+  padding-left: 27px;
+  display: inline-block;
+  z-index: 2000 !important;
+}
+
+.filters h2 {
+  margin-bottom: 2px;
+  color: rgb(28, 27, 27);
+  display: inline-block;
+
+}
+
+input {
+  z-index: 5;
+  margin-left: 15px;
+  color: rgb(28, 27, 27);
+  display: inline-block;
+
+}
+
+label {
+  margin-left: 5px;
+  margin-left: 3px;
+
+}
+
+.panel {
+  margin: 29px 63px 31px 63px !important;
+
+}
+

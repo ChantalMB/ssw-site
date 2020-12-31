@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto+Slab&family=Roboto:wght@300&display=swap');
+
+body {
+    background-color: rgb(28, 27, 27);;
+    font-family: 'Lato', sans-serif;
+}
+.pgHeader {
+    position: relative;
+    max-height: fit-content;
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('https://live.staticflickr.com/5629/22318747333_15c7071ab5_4k.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: 43%;
+    animation: fadeIn ease 5s;
+    -webkit-animation: fadeIn ease 5s;
+}
+.pgHeader::before {
+    content: "";
+    background-color: rgb(28, 27, 27);
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.27;
+}
+
+.bg {
+    font-family: Trattatello, fantasy;
+    font-size: x-large;
+    position: absolute;
+    color: rgb(28, 27, 27);;
+    opacity: 63%;
+    margin-left: 3px;
+}
+
+span {
+    color: #cbcbcb;
+}
+
+.panel {
+    background-color: white;
+    position: relative;
+    max-height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 45px 25px 45px;
+    margin: 65px 63px 65px 63px;
+}
+
+.content h1 {
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 47px;
+    margin-bottom: -9px;
+}
+
+.particles {
+    position: relative;
+}
+
+.example_a {
+    color: #fff !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #ed3330;
+    padding: 20px;
+    border-radius: 5px;
+    display: inline-block;
+    border: none;
+    transition: all 0.4s ease 0s;
+}
+
+.example_a:hover {
+    background: #434343;
+    letter-spacing: 1px;
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.4s ease 0s;
+}
+
+@keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+

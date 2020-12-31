@@ -1484,7 +1484,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -5,57.66666667 ]
+       "coordinates":  [ -5.041757,57.668350 ]
     },
     "properties": {
     "CaseRef":"C/EGD/40",
@@ -3966,7 +3966,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -5,57.66666667 ]
+       "coordinates":  [ -4.946107,57.657764 ]
     },
     "properties": {
     "CaseRef":"C/EGD/51",

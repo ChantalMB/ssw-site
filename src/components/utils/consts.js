@@ -1,7 +1,7 @@
 export const defaults = {
     lat: 56.927013,
     lng: -4.244758,
-    zoom: 8,
+    zoom: 6.7,
     minzoom: 1,
     targetData: "Sex",
     showUnknown: true
