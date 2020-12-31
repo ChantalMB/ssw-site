@@ -2,6 +2,8 @@ import React, { Component } from "react";
 
 import Particle from "./particles";
 import FadeInSection from './fadeinSec';
+import './css/home.css';
+
 
 
 class Home extends Component {
@@ -22,7 +24,7 @@ class Home extends Component {
           </div>
 
           <div class="button_cont" align="center"><a class="example_a" href="/visualization/point-map" target="_blank" rel="nofollow noopener">Get Started</a></div>
-          
+
       </section>
       </FadeInSection>
       </>
