@@ -67,10 +67,9 @@ span {
     color: #fff !important;
     text-transform: uppercase;
     text-decoration: none;
-    background: #ed3330;
+    background: black;
     padding: 20px;
     border-radius: 5px;
-    display: inline-block;
     border: none;
     transition: all 0.4s ease 0s;
 }
