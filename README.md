@@ -1,5 +1,9 @@
 # ssw-site
 
+## Hosted at: 
+
+https://fates-of-fair.netlify.app/
+
 ## Notes For Local Installation:
 
 1. Download the source code
