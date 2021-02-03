@@ -1,5 +1,5 @@
 .rad {
-  background-color: #cbcbcb;
+  background-color: #c3d9b5;
   height: 715px;
   width: 100%;
   padding-right: 30px;
@@ -32,11 +32,26 @@ input {
 label {
   margin-left: 5px;
   margin-left: 3px;
-
 }
 
+.p-wmap {
+  background-color: white;
+  position: relative;
+  max-height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 59px 25px 59px !important;
+  margin: 65px 63px 65px 63px !important;
+}
 
-p {
+.c-wmap h1 {
+  font-family: 'Roboto Slab', sans-serif;
+  font-size: 47px;
+  margin-bottom: 15px;
+}
+
+.c-wmap {
   line-height: 30px;
 }
 

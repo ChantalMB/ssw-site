@@ -4,13 +4,29 @@ body {
     background-color: rgb(28, 27, 27);;
     font-family: 'Lato', sans-serif;
 }
+
+.bg {
+    font-family: Trattatello, fantasy;
+    font-size: large;
+    position: absolute;
+    color: rgb(28, 27, 27);;
+    opacity: 63%;
+    margin-left: 3px;
+    z-index: 1;
+    text-align: center;
+    margin-left: 32.85%;
+    margin-right: 25%;
+    margin-top: 23.5%;
+    
+}
+
 .pgHeader {
     position: relative;
     max-height: fit-content;
     min-height: 90vh;
     display: flex;
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
     background-image: url('https://live.staticflickr.com/5629/22318747333_15c7071ab5_4k.jpg');
     background-repeat: no-repeat;
     background-size: 100%;
@@ -29,34 +45,25 @@ body {
     opacity: 0.27;
 }
 
-.bg {
-    font-family: Trattatello, fantasy;
-    font-size: x-large;
-    position: absolute;
-    color: rgb(28, 27, 27);;
-    opacity: 63%;
-    margin-left: 3px;
-}
-
-span {
-    color: #cbcbcb;
-}
-
-.panel {
+.p-about {
     background-color: white;
     position: relative;
     max-height: fit-content;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 0px 45px 25px 45px !important;
+    padding: 5px 59px 25px 59px !important;
     margin: 65px 63px 65px 63px !important;
 }
 
-.content h1 {
+.c-about h1 {
     font-family: 'Roboto Slab', sans-serif;
     font-size: 47px;
-    margin-bottom: -9px;
+    margin-bottom: 17px;
+}
+
+.c-about {
+    line-height: 30px;
 }
 
 .particles {

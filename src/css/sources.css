@@ -1,8 +1,39 @@
-body {
-    font-family: 'Lato', sans-serif;
+.p-source {
+    background-color: white;
+    position: relative;
+    max-height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 59px 25px 59px !important;
+    margin: 65px 63px 65px 63px !important;
 }
 
 
-.content h1 {
+.c-source h1 {
     font-family: 'Roboto Slab', sans-serif;
+    font-size: 47px;
+    margin-bottom: 17px;
+}
+
+.c-source {
+    line-height: 30px;
+    flex: 1;
+    float: right;
+}
+
+figure {
+    float: left;
+    margin: 35px 49px 11px -9px !important;
+}
+
+figcaption {
+    font-size: 13px;
+    line-height: 21px;
+}
+
+#icon {
+    height: 650px;
+    width: 500px;
+
 }

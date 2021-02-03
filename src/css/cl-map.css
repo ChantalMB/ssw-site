@@ -30,3 +30,24 @@
 .text {
 padding-top: 693px;
 }
+
+.p-clmap {
+  background-color: white;
+  position: relative;
+  max-height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 59px 25px 59px !important;
+  margin: 65px 63px 65px 63px !important;
+}
+
+.c-clmap h1 {
+  font-family: 'Roboto Slab', sans-serif;
+  font-size: 47px;
+  margin-bottom: 23px;
+}
+
+.c-clmap {
+  line-height: 30px;
+}

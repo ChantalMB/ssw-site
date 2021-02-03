@@ -1,25 +1,32 @@
-.post-field {
+.pf-strgraph {
     width: 100%;
-    height: 93vh !important;
-    padding-top: 50px;
+    height: 93vh;
     animation: fadeIn ease 2.3s;
     -webkit-animation: fadeIn ease 2.3s;
 }
 
-iframe {
+#i-strgraph {
     width: 100%; 
     height: 100%;
-    
 }
 
-
-.panelbod{
+.pb-strgraph {
     background-color: white;
     position: relative;
     max-height: fit-content;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 0px 30px 15px 30px;
-    margin: 0px 63px 0px 63px;
+    padding: 5px 59px 25px 59px;
+    margin: 65px 63px 65px 63px;
+}
+
+.c-strgraph h1 {
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 47px;
+    margin-bottom: 17px;
+}
+
+.c-strgraph {
+    line-height: 30px;
 }

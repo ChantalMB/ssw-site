@@ -10,10 +10,10 @@ export default class Devil extends Component {
         return (
             <>
            
-            <section className="panel-dv">
-                <div className= "post-field-dv">
+            <section className="p-dty">
+                <div className= "pf-dty">
                 <Iframe url="../devil_type.html"
-                id="myId-dv"
+                id="i-dty"
                 className="myClassname"
                 frameBorder="0"
                 />
@@ -22,8 +22,8 @@ export default class Devil extends Component {
 
 
             <FadeInSection>
-            <section class="panelbod"> 
-                <div class="content">
+            <section class="pb-dv"> 
+                <div class="c-dv">
                     <h1>All Manners of Deviltry</h1>
                     <p class="has-line-data" data-line-start="0" data-line-end="1">When creating these visualizations, I opted to use data recorded about the manner and appearance of the devil from the entire database rather than restricting it to only cases with fairy and folkloric elements like I did for my map visualisations in hopes of finding broader trends in how the devil may have been perceived in cases throughout Scotland. At this point, I now knew about fairies and their presence as demonic spirits to a majority of the Early Modern Scottish population but questioned where the devil himself fell into this intertwining of folkloric and religious belief. That is until I happened upon the case notes of <a href="http://witches.shca.ed.ac.uk/index.cfm?fuseaction=home.caserecord&amp;caseref=C/EGD/1558&amp;search_string=date%3D%26enddate%3D%26char%3Dany%26char%5Fop%3DAND%26ritual%5Fobject%3Dany%26rit%5Fop%3DAND%26calendar%5Fcustom%3Dany%26cal%5Fop%3DAND%26non%5Fnatural%5Fbeing%3Dany%26nnb%5Fop%3DAND%26demonic%5Fpact%3Dany%26pact%5Fop%3DAND">Issobell Gowdie</a>, where it is written that:</p>
                     <blockquote>“She linked the elves and the Devil by saying that the Devil gave elves instructions on how to use and make elfshot and that they fire the shot in the Devil’s name.”</blockquote>
@@ -36,10 +36,10 @@ export default class Devil extends Component {
 
             <FadeInSection>
 
-            <section className="panel-dv">
-                <div className= "post-field-dv">
+            <section className="p-dtx">
+                <div className= "pf-dtx">
                 <Iframe url="../devil_text.html"
-                id="myId-dv"
+                id="i-dtx"
                 className="myClassname"
                 frameBorder="0"
                 />
@@ -49,8 +49,8 @@ export default class Devil extends Component {
 
 
             <FadeInSection>
-            <section class="panelbod"> 
-                <div class="content">
+            <section class="pb-dv"> 
+                <div class="c-dv">
                 <p class="has-line-data" data-line-start="2" data-line-end="3">When looking at the largest circles, nothing immediately stood out to me as providing an answer to my question of how the devil was characterized as female. The descriptor of “green” denoted nature but often was associated fairies due to their association with the natural world, indicating a potential connection between the devil as master of nature, which could hold true whether the devil was seen in his religious embodiment or as a mythic creature overseeing the fair folk. The question of “what animal?” that may have been pondered when looking at the previous visualization of “type” of being is quickly answered with the prominence of the “cat” and “dog” circles. The singular more prominent word I was unfamiliar with was “antiochia”, which also went undefined in the database’s glossary. <a href="http://search.ebscohost.com.proxy.library.carleton.ca/login.aspx?direct=true&amp;db=nlebk&amp;AN=252506&amp;site=ehost-live">In her writings about the appearance of the devil</a>, Joyce Miller, one of the database’s creators, states that “Antiochia” was, in fact, a female devil, known as the “gentle wife of the Devil.” Miller notes that it is she who makes up a majority of “female” mentions in the database, but also that all mentions of her come from a singular trial involving 21 individual that occurred in 1697. It could be speculated that given the description of “gentle”, Antiochia may be meant to represent the Queen of Elphane (Fairyland) in this scenario with the devil acting as king, or a goddess-like figure resembling pre-Christian pagan deities that held ties to Scottish folklore, but ultimately she remains a mystery.</p>
                 </div>
             </section>

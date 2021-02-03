@@ -1,14 +1,38 @@
-.post-field {
-  width: 100%;
-  height: 57vh !important;
-
+.p-rot {
+  animation: fadeIn ease 2.3s;
+  -webkit-animation: fadeIn ease 2.3s;
 }
 
-Iframe {
+.pf-rot, .pf-com, .pf-mt, .pf-eft {
+  width: 100%;
+  height: 67vh;
+  margin: 0px 0px 55px 0px;
+}
+
+#i-rot, #i-com, #i-mt, #i-eft {
   width: 100%; 
-  height: 100vh ;
-  border: 0px;
-  
+  height: 100%;
+}
+
+.pb-fe {
+  background-color: white;
+  position: relative;
+  max-height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 59px 25px 59px;
+  margin: 65px 63px 65px 63px;
+}
+
+.c-fe h1 {
+  font-family: 'Roboto Slab', sans-serif;
+  font-size: 47px;
+  margin-bottom: 17px;
+}
+
+.c-fe {
+  line-height: 30px;
 }
 
 blockquote {
@@ -26,6 +50,11 @@ blockquote:before {
   line-height: 0.1em;
   margin-right: 0.25em;
   vertical-align: -0.4em;
+}
+
+blockquote:after {
+  visibility: hidden;
+  content: close-quote;
 }
 
 blockquote p {
