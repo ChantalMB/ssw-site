@@ -10,6 +10,8 @@ Website hosted here: https://fates-of-fair.netlify.app/
 - Figure out what's making text on home page not visible
 - Replace images with smaller size for better load time
 - Figure out how to improve point map loading speed
+- Add dropdown selector on streamgraph
+- Fix overlap in point-map
 
 ## Notes For Local Installation:
 
